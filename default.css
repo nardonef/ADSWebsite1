@@ -1,0 +1,702 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+    /*todo*/
+	background: #A80154;
+	font-family: 'Chivo', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+}
+
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+
+
+strong {
+}
+
+a {
+	color: #171717;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+	.image
+	{
+		display: inline-block;
+	}
+	
+		.image img
+		{
+			display: block;
+			width: 100%;
+		}
+
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+
+		.image-centered img
+		{
+			margin: 0 auto;
+			width: auto;
+		}
+
+hr {
+	display: none;
+}
+
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.style1
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	ul.style1 li
+	{
+		border-top: solid 1px #E5E5E5;
+		padding: 0.80em 0;
+	}
+	
+	ul.style1 li:first-child
+	{
+		border-top: 0;
+		padding-top: 0;
+	}
+
+	ul.style2
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	ul.style2 li
+	{
+		border-top: solid 1px #E5E5E5;
+		padding: 0.80em 0;
+	}
+	
+	ul.style2 li:first-child
+	{
+		border-top: 0;
+		padding-top: 0;
+	}
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+	{
+		margin: 0;
+		padding: 1.5em 0em 2.5em 0em;
+		list-style: none;
+	}
+	
+	ul.contact li
+	{
+		display: inline-block;
+		padding: 0em 0.30em;
+		font-size: 1em;
+	}
+	
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.contact li a
+	{
+		color: #FFF;
+	}
+	
+	ul.contact li a:before
+	{
+		display: inline-block;
+		background: #3f3f3f;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	
+	ul.contact li a.icon-twitter:before { background: #2DAAE4; }
+	ul.contact li a.icon-facebook:before { background: #39599F; }
+	ul.contact li a.icon-dribbble:before { background: #C4376B;	}
+	ul.contact li a.icon-tumblr:before { background: #31516A; }
+	ul.contact li a.icon-rss:before { background: #F2600B; }
+
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 2em;
+	}
+
+	.title h2
+	{
+		font-weight: 400;
+		font-size: 2em;
+		color: #39FF14;
+	}
+	
+	.title .byline
+	{
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #6F6F6F;
+	}
+
+/** WRAPPER */
+
+#wrapper {
+    background-color: #6A4162;
+}
+
+#footer-wrapper
+{
+	background: #0F0F0F;
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+
+
+.clearfix {
+	clear: both;
+}
+
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+#header-wrapper {
+    overflow: hidden;
+    background-size: 100%;
+    background: #2a394f;
+    padding: 0em 0em 0em 20em;
+}
+
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header 
+	{
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+#logo {
+    /*height: 100px;*/
+    margin: 0 auto;
+    padding: 2em 0em;
+    text-transform: uppercase;
+}
+
+h1 {
+    letter-spacing: 0.02em;
+    font-size: 3em;
+    color: #39FF14;
+    /*font-family: 'Crete Round', serif;*/
+    /*font-family: 'Heebo', sans-serif;*/
+    font-family: 'Hammersmith One', sans-serif;
+    /*font-family: 'Chivo', sans-serif;*/
+}
+	
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner 
+	{
+		overflow: hidden;
+		height: calc(100vh - 174px);
+		/*background: url(images/pic01.jpg) no-repeat center;
+		background-size: cover;*/
+	}
+	
+	#banner .image
+	{
+	}
+	
+
+/** MENU */
+
+#menu-wrapper {
+    background: #2a394f;
+}
+
+#menu {
+	overflow: auto;
+	height: 50px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+    overflow: auto;
+    height:50px;
+}
+
+#menu li {
+	display: inline-block;
+    height:50px;
+}
+
+#menu a {
+	display: block;
+	letter-spacing: 1px;
+	padding: 0px 40px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 50px;
+	border: none;
+	color: #FFF;
+    height:50px;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+}
+
+    #menu .current_page_item a {
+        color: #39FF14;
+    }
+
+/** PAGE */
+
+#page
+{
+	position: relative;
+}
+
+/** CONTENT */
+
+#content {
+    float: right;
+    width: 60%;
+    margin-right: 10%;
+    margin-top: 0;
+}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+#sidebar {
+    padding-right:20px;
+    padding-top:10px;
+    width: 25%;
+    padding-left: 15px;
+    background:black;
+    height: 400px;
+
+}
+	
+	#sidebar .title h2
+	{
+		font-size: 1.6em;
+	}
+	
+	#sidebar .box1
+	{
+		margin-bottom: 3em;
+	}
+
+.sidelist {
+    counter-reset: li;
+    list-style: none;
+    *list-style: decimal;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin-bottom: 4em;
+}
+
+    .sidelista {
+        position: relative;
+        display: block;
+        padding: .4em .4em .4em 2em;
+        *padding: .4em;
+        margin: .5em 0;
+        background: #5975D9;
+        color: white;
+        text-decoration: none;
+        box-shadow: inset 0.5em 0 black;
+        -webkit-transition: box-shadow 1s; /* For Safari 3.1 to 6.0 */
+        transition: box-shadow 1s;
+    }
+
+.sidelistb {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    background: #5975D9;
+    color: white;
+    text-decoration: none;
+    box-shadow: inset 0.5em 0 black;
+    -webkit-transition: box-shadow 1s; /* For Safari 3.1 to 6.0 */
+    transition: box-shadow 1s;
+}
+
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		text-align: center;
+	}
+	
+	#copyright p
+	{
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: rgba(255,255,255,.5);
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,.7);
+	}
+
+/*********************************************************************************/
+/* Welcome                                                                       */
+/*********************************************************************************/
+
+	#welcome
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		border-bottom: 1px solid #E5E5E5;
+		text-align: center;
+	}
+	
+	#welcome h2
+	{
+		letter-spacing: 0.20em;
+		text-transform: uppercase;
+		font-size: 2.6em;
+	}
+	
+	#welcome p
+	{
+		font-size: 1.3em;
+	}
+
+	#welcome .byline
+	{
+		display: block;
+		padding: 0em 0em 1.5em 0em;
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.2em;
+		color: #6F6F6F;
+	}
+
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+
+	#portfolio-wrapper
+	{
+		background: rgba(0,0,0,.04);
+		padding: 6em 0em;
+		color: rgba(255,255,255,.7);
+	}
+	
+	#portfolio
+	{
+		overflow: hidden;
+	}
+
+    h2 {
+        font-size: 1em;
+        color: #EEA7C1;
+        margin-bottom:20px;
+    }
+
+	#portfolio .byline
+	{
+		font-size: 1em;
+		color: #EEA7C1;
+	}
+	
+	#column1,
+	#column2,
+	#column3,
+	#column4
+	{
+		width: 282px;
+	}
+	
+	#column1,
+	#column2
+	{
+		float: left;
+		margin-right: 24px;
+	}
+	
+	#column3
+	{
+		float: left;
+	}
+	
+	#column4
+	{
+		float: right;
+	}
+	
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		margin-top: 1.5em;
+		padding: 0.50em 3em 0.50em 2em;
+		background: #BB005D;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #FFF;
+	}
+	
+		.button:before
+		{
+			display: inline-block;
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			border-radius: 20px;
+			text-align: center;
+			color: #FFF;
+		}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+	
+	#footer-wrapper
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		background: #1E1B1A;
+	}
+
+	#footer
+	{
+		color: #ADADAD;
+	}
+	
+	#footer .title h2
+	{
+		font-weight: 400;
+		font-size: 1.2em;
+		color: #FFF;
+	}
+
+	#footer .title
+	{
+		border-color: #2D2926 !important;
+	}
+	
+	#footer .style1 li
+	{
+		border-color: #2D2926 !important;
+	}
+	
+	#footer .style1 a
+	{
+		font-size:1em;
+		color: #B1B1B1;
+	}
+	
+	#box1
+	{
+		float: left;
+		width: 354px;
+		margin-right: 24px;
+		padding-right: 30px;
+	}
+	
+	#box2
+	{
+		float: left;
+		width: 354px;
+		margin-left: 24px;
+		padding-right: 30px;
+	}
+	
+	#box3
+	{
+		float: right;
+		width: 344px;
+		padding-left: 40px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    margin: auto;
+    overflow:hidden;
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+img {
+    width: 100%;
+    max-height: 100%;
+    
+}

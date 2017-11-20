@@ -1,0 +1,48 @@
+                    <!--<form method="post" enctype="multipart/form-data" action="https://ftmapi01.nfrastructure.com:8443/hello">
+                        <table id="tableform">
+                            <tr class="spaceUnder">
+                                <td class="tabletext">Applicant's Name: </td>
+                                <td><input name="name" id="name" value="" /></td>
+                            </tr>
+                            <tr class="spaceUnder">
+                                <td class="tabletext">Applicant's Address: </td>
+                                <td><textarea name="address" id="address"></textarea></td>
+                            </tr>
+                            <tr class="spaceUnder">
+                                <td class="tabletext">Applicant's Phone Number: </td>
+                                <td><input name="phone" id="phone" value="" /></td>
+                            </tr>
+                            <tr class="spaceUnder">
+                                <td class="tabletext">Applicant's Email: </td>
+                                <td><input name="email" id="email" value="" /></td>
+                            </tr>
+                            <tr class="spaceUnder">
+                                <td class="tabletext">Program, service, or materials <br /> for which you are applying:</td>
+                                <td><input name="applyingfor" id="applyingfor" value="" /></td>
+                            </tr>
+                            <tr class="spaceUnder">
+                                <td class="tabletext">Amount requested: $</td>
+                                <td><input name="amount" id="amount" value="" /></td>
+                            </tr>
+                            <tr class="spaceUnder">
+                                <td class="tabletext">Has applicant's insurance been billed: </td>
+                                <td>
+                                    <input type="radio" name="billed" value="yes" /> Yes<br />
+                                    <input type="radio" name="billed" value="no" /> No<br />
+                                </td>
+                            </tr>
+                            <tr class="spaceUnder">
+                                <td class="tabletext">Check made payable to: </td>
+                                <td><input name="payableto" id="payableto" value="" /></td>
+                            </tr>
+                            <tr class="spaceUnder">
+                                <td class="tabletext">Proof of Diagnosis: </td>
+                                <td><input type="file" name="file1" id="file1" /></td>
+                            </tr>
+                            <tr class="spaceUnder">
+                                <td class="tabletext">Invoice for service of materials: </td>
+                                <td><input type="file" name="file2" id="file2" /></td>
+                            </tr>
+                        </table>
+                        <p><input type="submit" name="submit" id="submit" value="submit" /></p>
+                    </form>-->
